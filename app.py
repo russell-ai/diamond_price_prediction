@@ -43,7 +43,7 @@ def user_input_features():
 
 input_df = user_input_features()
 
-dataset = pd.read_csv('diamonds_exp.csv')
+dataset = pd.read_csv('diamonds.csv')
 df = dataset.drop(columns=['price'])
 df = pd.concat([input_df, df], axis=0)
 
