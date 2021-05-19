@@ -57,6 +57,7 @@ df = df[:1]  # Selects only the first row (the user input data)
 # Displays the user input features
 st.subheader('User Input features')
 st.write(df)
+st.markdown("""---""")
 
 # Read the saved model
 with open('GBR_estimator.pkl', 'rb') as file:
@@ -70,5 +71,7 @@ st.header(f'US ${np.round(prediction,2)}')
 
 st.markdown(
     """
+    ---
+    
     [for more contact](https://www.resulcaliskan.com) 
     """)
