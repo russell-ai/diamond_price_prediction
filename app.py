@@ -73,5 +73,6 @@ st.markdown(
     """
     ---
     
+    
     [for more contact](https://www.resulcaliskan.com) 
     """)
