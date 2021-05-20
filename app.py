@@ -8,7 +8,7 @@ pd.set_option("display.max.columns", None)
 
 st.write("""
 # Diamond Price Prediction App
-This app predicts the **Diamond Price** species!
+This app predicts the **Diamond Price**
 """)
 st.sidebar.header('Select Diamond Features')
 st.sidebar.markdown("""
